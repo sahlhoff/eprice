@@ -1,0 +1,35 @@
+{
+  "name": "eprice",
+  "version": "1.0.0",
+  "description": "Ethereum price cli",
+  "preferGlobal": true,
+  "bin": {
+    "eprice": "index.js"
+  },
+  "dependencies": {
+    "request": "^2.73.0",
+    "right-pad": "^1.0.0",
+    "colors": "^1.1.2",
+    "open": "^0.0.5",
+    "term-list": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahlhoff/eprice.git"
+  },
+  "keywords": [
+    "ethereum",
+    "ether",
+    "cli"
+  ],
+  "author": "chad sahlhoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahlhoff/eprice/issues"
+  },
+  "homepage": "https://github.com/sahlhoff/eprice#readme"
+}
